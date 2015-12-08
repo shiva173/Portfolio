@@ -1,0 +1,272 @@
+  body {
+	padding: 0;
+	margin: 0 auto;
+	width: 1400px;
+	height: 1580px; 
+	background: url("img/bg-2.png") no-repeat 50% 0% ,#282828 url("img/bg-1.jpg") no-repeat 50% 50% ;  
+  }
+
+   .logo {
+	margin-left: 200px;
+	margin-top: 80px;   
+   }
+
+   .main-menu  {   
+    float: right;
+	position: relative;
+	bottom: 36px;
+	right: 211px;
+	list-style: none;   
+   }
+   
+   .main-menu  li {
+	display: inline;
+	margin-left: 20px;
+	 
+   }
+
+    .main-menu a {
+	color:white;
+    text-decoration: none;
+	font-size: 15px;
+	font-family: "Myriad Pro";	
+	}
+
+    .main-menu a:hover {
+	text-decoration: underline;
+	color: #000;	
+	}
+
+    .slider {
+	 margin-top: 35px;	
+	 height: 410px;
+	 width: 995px;
+	 margin-left: 200px;
+	 border-top: 1px dotted #fff;
+	 border-bottom: 1px dotted #fff;
+	
+	}
+
+    .slides li {
+	float: left;
+	list-style: none;	
+    margin-left: 20px; 
+	}
+ 
+
+    .slide-1 {
+	background: url(img/inner-bg-slide1.png)no-repeat 50% , url(img/bg-slide1.png)no-repeat 50%;
+	width: 246px;
+	height: 247px;
+	margin-top: 78px;	
+   }
+  
+    .slide-2 {
+	background: url(img/inner-bg-slide2.png)no-repeat 50% , url(img/bg-slide2.png)no-repeat 50%; 
+	width: 316px;
+	height: 317px;
+	margin-top: 44px;	
+	}
+
+    .slide-3{
+	background: url(img/inner-bg-slide3.png)no-repeat 50%, url(img/bg-slide1.png)no-repeat 50%;	
+	width: 246px;
+	height: 247px;
+	margin-top: 78px;	
+	}
+
+
+   .arrow-left , .arrow-right {
+   margin-top: 190px;
+   }
+
+
+    .arrow-left:hover, .arrow-right:hover {
+   -moz-transform: scale(2); /* Для Firefox */
+    -ms-transform: scale(2); /* Для IE */
+    -webkit-transform: scale(2); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(2); /* Для Opera */  
+   transform: scale(2);
+	 
+	 }
+
+    .content {
+   margin: auto;
+   height: 440px;
+   width: 1000px;
+   position: relative;
+   top: 80px;
+   border-bottom: dotted 1px #fff;		
+	
+	}
+
+    .left-side {
+	
+	width: 370px;
+	height: 430px;	
+	}
+  
+    .left-side h2:nth-child(1) {
+    width: 500px; 
+	color: white;
+	font-size: 26px;
+		
+	}
+
+    .left-side h2:nth-child(3) {
+	font-size: 24px;	
+	color: white;
+	padding-top: 30px;	
+	}
+
+    .left-side p:nth-child(2) {
+	color: white;
+	width: 500px;
+	font-size: 22px;
+		
+	}
+   
+
+   .left-side h3 {
+	color: white;
+	font-size: 20px;
+	 width: 500px;  
+	 
+   }
+
+   .left-side p:nth-child(5) {
+	font-size: 16px;
+	color: white;  
+   }
+
+   .left-side p:nth-child(6) {
+	font-size: 15px;
+	 color: white;  
+   }
+
+
+   .right-side {
+	height: 430px;
+	width: 370px;
+	float: right;
+	position: relative;
+	bottom: 453px; 
+	color: white;
+	text-align: left;
+	margin-right: 60px;
+	   
+   }
+
+
+    .right-side p:nth-child(2) {
+	font-size: 18px;		
+	}
+
+   .right-side h2:nth-child(4) {
+	width: 200px;
+	font-size: 18px;
+	padding-top:10px;    
+   }
+
+ .right-side h2:nth-child(6) {
+   width: 290px;
+   margin-top: 40px;	 
+	 
+ }
+
+
+ .right-side ul {
+  list-style: none;
+  position:relative;
+  left: 290px;
+  bottom: 350px;	 
+ }
+ 
+ .right-side li {
+ position: relative;
+ width: 100px;
+ height: 100px;	 
+ }
+
+.right-side li:nth-child(1) {
+ top: px;
+ }
+
+
+.right-side li:nth-child(2) {
+ top: 20px;
+ }
+
+ .right-side li:nth-child(3) {
+ top: 45px;
+ }
+
+ .footer  {
+  margin: 0 auto; 
+  width: 1000px;
+  height: 340px;
+  border-bottom: dotted 1px #fff; 	 
+  	 
+ 
+ }
+
+  .footer h2 {
+  color: white;
+   margin-top: 120px;	  
+  }
+
+ .footer ul {
+  list-style: none;
+  float: left;
+  position: relative;
+  bottom: 250px;
+  right: 50px;
+  width: 1100px;	  	 
+ }
+
+  .footer li {
+  display: inline;
+  margin-left: 14px;	  
+  }
+
+  .social {
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  left: 200px;	  
+  width: 1000px;
+  float: left;	  
+  
+  }
+   
+   .social a {
+    width: 16px;
+	height: 16px;
+	background: url(img/social-icons.png) no-repeat;
+	display: inline-block;
+	margin:0 5px;
+   }
+
+
+   a.social-1 {
+	background-position: 0 0;
+    }
+
+   a.social-2 {
+    background-position: -16px 0; 	  
+    }
+
+    a.social-3 {
+	background-position: -32px 0;
+    width:22px;		
+    }
+
+    a.social-4 {
+	background-position: -54px 0; 	
+	}
+
+   .social p {
+	float:right;
+	color: white;
+	margin: 0 auto;  
+   }

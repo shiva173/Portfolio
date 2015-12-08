@@ -1,0 +1,291 @@
+*{
+padding:0;
+margin:0 auto;
+	
+}
+
+
+body {
+background:#787878;	
+}
+
+
+.resume {
+    margin: 0 auto;
+	width: 1000px;
+	background: url("images/pattern.jpg")repeat #797979;
+	padding-bottom: 100px;
+}
+
+.header {
+height: 190px;
+}
+
+
+
+.header .logo {
+	background-image: url("images/CSSSR.png");
+	background-position: 46px 66px;
+	background-repeat: no-repeat;
+	float: left;
+	width: 50%;
+	height: inherit;
+}
+
+
+.header .top_secret {
+	background:url("images/top-secret.png")no-repeat;
+	background-position: 193px 45px;
+	background-repeat: no-repeat;
+
+	float: right;
+	width: 50%;
+	height: inherit;
+}
+
+ .delo {
+	background-image: url("images/delo.png");
+	background-position:350px;
+	background-repeat: no-repeat;
+
+	height: 160px;
+}
+
+
+
+
+.main_info div {
+margin-top:20px;
+position: relative;	
+
+}
+
+.main_info label {	
+    font-size: 22px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold; 
+	color: rgb( 47, 27, 21 );
+
+	margin-left:130px;
+	position:relative;
+	top:9px;
+	
+}
+	
+
+
+.main_info input[type="text"] {
+margin-left:10px;	
+background: url("images/input-line.png") no-repeat left bottom transparent;	
+width:600px;
+border:none;	
+
+	font-size: 30px;
+	font-family: "Courier New";
+	color: rgb( 35, 31, 32 );
+	line-height: 1.2;
+	text-align: left;
+
+}
+.yer input[type="text"] {
+width:590px;
+	
+}
+
+.live_place input[type="text"] {
+width:550px;	
+}
+
+.skype input[type="text"] {
+width:670px;	
+}
+
+.mail input[type="text"] {
+width:670px;	
+}
+ 
+.htmlacademy {
+height:50px;
+	
+}
+
+.htmlacademy p {
+width:270px;
+float: left;
+margin-left:130px;
+margin-top:20px;
+
+font-size: 22px;
+font-family: 'PT Sans', sans-serif;
+color: rgb( 47, 27, 21 );
+font-weight: bold;
+line-height: 2.221;
+text-align: left;	
+}
+
+
+.htmlacademy_answer label {
+	padding-left:30px;
+	margin-left:10px;
+	margin-right:15px;
+	background-image: url("images/radio-bckg.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	top:32px;
+	left:20px;
+	float:left;
+	
+}
+
+.htmlacademy input[type="radio"] {
+display:none;
+	
+}
+
+.htmlacademy input[type="radio"]:checked ~ label {
+background-image:url("images/radiocheck-input.png");	
+}
+
+.main_skills h1 {
+    font-family:'PT Sans', sans-serif; 
+	font-size:23px;
+	margin-top:40px;
+	margin-left:126px;
+}
+
+.main_skills p {
+margin-top:10px;
+font-size:14px;	
+font-family:'PT Sans', sans-serif; 
+margin-left:130px;
+width:76%;
+text-align:left; 
+}
+
+.main_skills_checkboxes {
+font-size:0px;
+
+
+}
+
+.main_skills_checkboxes_answer {
+   display:inline-block;
+   width: 40%;
+   		
+}
+
+
+
+.main_skills_checkboxes_answer input[type="checkbox"] {
+	display:none;
+}
+
+
+
+.main_skills_checkboxes_answer label {
+	display: block;
+	padding-left: 25px;
+	padding-top: 5px;
+	background-image: url("images/checkbox-bckg.png");
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+	
+}
+
+.main_skills_checkboxes_answer input[type=checkbox]:checked ~ label {
+	background-image: url(images/checkbox-check.png);
+	background-position: 0 0px;
+}
+
+.level_js {
+    margin: 120px;
+	position: relative;
+	top: 50px;
+}
+
+
+
+.level_js h2 {
+  	font-family:'PT Sans', sans-serif;
+}
+
+
+
+#slider_level_js {
+	width: 763px;
+}
+
+
+#slider_level_js input[type=range] {
+    position: relative;
+	top: 21px;
+	right: 4px;
+	width: 769px;
+    -webkit-appearance: none;
+	 -moz-appearance: none;
+	
+
+}
+
+
+#slider_level_js::-webkit-slider-runnable-track {
+	background: url(images/pattern.jpg);
+}
+
+
+
+
+
+#slider_level_js::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-image: url(images/arrow_slider.png);
+	width: 16px;
+	height: 14px;
+	cursor: pointer;
+	
+}
+
+
+
+#slider_level_js::-moz-range-thumb {
+	-moz-appearance: none;
+	background-image: url(images/arrow_slider.png);
+	width: 16px;
+	height: 14px;
+	cursor: pointer;
+
+}
+
+
+#slider_level_js::-moz-range-track {
+	 -moz-appearance: none;
+	background: url(images/pattern.jpg);
+	
+}
+
+
+
+
+#slider_level_js::-ms-slider-thumb {
+	background-image: url(images/arrow_slider.png);
+	width: 16px;
+	height: 14px;
+}
+
+
+
+
+.skills_level_js {
+	width: 762px;
+	height: 64px;
+    background-image:url(images/slider-line.png); 	
+}
+
+
+
+
+.date input[type="text"] {
+  	width: 210px;
+}
+
+

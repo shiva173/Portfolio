@@ -1,0 +1,128 @@
+@media screen and (max-width: 900px) {
+		 
+			 #filtr {display: none;}
+	
+	         .price {display: none;}
+			 
+		  }
+		  
+		  
+		  #navbar { 
+			  border-bottom: 1px solid #222;
+		      padding-left: 40px;
+		  }
+		  
+		  
+		   #footer { background-color: white;}
+		  
+		  
+
+
+          body { background-color: #DCDCDC;}
+		  
+		 
+		  
+          #active_sale { background-color: #dbe5ee;}
+		  
+		  
+
+          #active_enter {
+			     color: #72b6e5;
+		         margin-right: 60px;        
+		  }
+
+
+          .price {
+			position: absolute;
+			left: 40px;
+			bottom: 125px;  
+			 
+			height: 30px;  
+			width: 130px;
+			 
+			color: #222;
+			background-color: #fff;
+			
+			border-radius:  6px; 
+		  }
+
+  
+           .price p{
+			
+			font-size:  20px; 
+			text-align: center;
+			   
+			padding: 1px;
+			   
+		   }
+		  
+		 
+
+
+           #footer { padding: 30px;}
+		  
+
+		 
+          
+             #footer_nav {
+			    background-color: #eeeeee;
+		        margin-top: 5px;
+		  }
+		  
+
+		    #footer_nav a {
+			    color: #222;
+		        margin: 10px;
+		  }
+		  
+		  
+           #social a { color: #cacaca;}
+		  
+		  
+
+          .content a{ text-decoration: none;}
+
+
+
+
+          #card {position: relative;}
+		  
+		  
+
+         #like {
+			  position: absolute;
+		      right: 40px;
+			  top: 20px;
+			  color: #fff;
+		   }
+
+
+
+         #navigation li:hover {
+		      background-color: #dbe5ee;
+		 }
+
+
+          .thumbnail:hover  {
+		  	  outline: 2px solid #00BFFF; 
+		  }
+
+
+ 
+            .caption h5 {
+			   margin-left: 6px;	
+			}
+          
+
+
+          .caption p {
+			   display: inline-block; 
+			   border-right: 1px solid #EEE9E9;
+			   padding: 0px 5px;
+		  }
+          
+          .caption p:last-child {
+			   border: none;  
+		  }
+
+         
